@@ -31,7 +31,6 @@ data = [Scattergeo(
     )
 )]
 
-
 layout = Layout(
     title='World Population Distribution 2025',
     geo=dict(

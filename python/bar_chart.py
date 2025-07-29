@@ -53,6 +53,5 @@ layout = Layout(title={'text': 'Top 10 most populated in the world', 'x' : 0.5},
                     )
                 ]
                 )
-
 # Generate and open bar chart
 offline.plot({'data': data, 'layout' : layout}, filename='../charts/bar_chart.html')
