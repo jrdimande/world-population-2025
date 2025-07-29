@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Population 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery a {
+            display: block;
+            width: 100%;
+            max-width: 280px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #eee;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World Population in 2025</h1>
+    </header>
+
+    <main>
+        <h2>Overview</h2>
+        <p>
+            This data visualization project shows the most populated countries in the world and the distribution of population by continent. Through charts and interactive maps, it helps to better understand global population patterns.
+        </p>
+        <p>
+        The data used in this project was obtained from <a href="https://worldpopulationreview.com/" target="_blank" rel="noopener noreferrer">World Population Review</a>.
+        </p>
+
+        <h2>Visualizations</h2>
+        <div class="gallery">
+            <a href="charts/bar_chart.html" target="_blank">
+                <img src="images/bar_chart.png" alt="Bar Chart of Population" />
+                <p>Top 10 most populated in the world</p>
+            </a>
+            <a href="charts/pie_chart.html" target="_blank">
+                <img src="images/pie_chart.png" alt="Pie Chart of Continents" />
+                <p>World Population Distribution by Continent</p>
+            </a>
+            <a href="charts/scattergeo_chart.html" target="_blank">
+                <img src="images/scattergeo_chart.png" alt="Scattergeo Map" />
+                <p>Interactive map of the world</p>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed by Timóteo Dimande Júnior &copy; 2025</p>
+    </footer>
+</body>
+</html>
