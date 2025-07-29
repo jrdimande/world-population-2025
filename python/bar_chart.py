@@ -10,7 +10,7 @@ with open(filename) as f:
     header_row = next(reader)
 
     # for index, column_header in enumerate(header_row):
-    #     print(index, column_header)
+    # print(index, column_header)
 
     countries = []                      # <- List to store country names
     population = []                     # <- List to store population values as strings
@@ -52,7 +52,6 @@ layout = Layout(title={'text': 'Top 10 most populated in the world', 'x' : 0.5},
                         align='left'
                     )
                 ]
-
                 )
 
 # Generate and open bar chart
