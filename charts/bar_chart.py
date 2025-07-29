@@ -2,7 +2,7 @@ import csv
 from plotly.graph_objs import Bar, Layout
 from plotly import offline
 
-filename = '../data/current-world-population--8,005,176,000.csv'
+filename = './data/current-world-population.csv'
 
 # Open the csv and create a reader object
 with open(filename) as f:
@@ -43,4 +43,4 @@ layout = Layout(title={'text': 'Top 10 most populated in the world', 'x' : 0.5},
                 yaxis=y_axis_config)
 
 # Generate and open bar chart
-offline.plot({'data': data, 'layout' : layout}, filename='../bar_chart.html')
+offline.plot({'data': data, 'layout' : layout}, filename='bar_chart.html')
