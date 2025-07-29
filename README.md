@@ -3,7 +3,7 @@
 Este projeto apresenta uma visualização interativa dos países mais populosos do mundo e da distribuição da população por continente. Utilizando gráficos e mapas interativos, o projeto ajuda a compreender melhor os padrões populacionais globais.
 
 A ideia do projeto surgiu a partir de uma conversa com minha colega, onde descobrimos que a Índia ultrapassou a China em número de habitantes atualmente. Fiz este projeto para praticar meus conhecimentos em visualização de dados usando Plotly em Python.
-Pode acessar o projeto online neste link: [https://jrdimande.github.io/world-population-2025/](https://jrdimande.github.io/world-population-2025/)
+Podes acessar o projeto online neste link: [https://jrdimande.github.io/world-population-2025/](https://jrdimande.github.io/world-population-2025/)
 
 ---
 
